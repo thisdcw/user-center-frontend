@@ -9,7 +9,7 @@ import {stringify} from "querystring";
  */
 const request = extend({
   credentials: 'include',//默认是否带上cookie
-  prefix: process.env.NODE_ENV === 'production' ? 'http://thisdcw.fun' : undefined
+  prefix: process.env.NODE_ENV === 'production' ? 'http://back.thisdcw.fun' : undefined
   // requestType:'form'
 })
 
